@@ -17,7 +17,7 @@ RUN apt-get update \
         libunwind8 \
         netcat \
         libssl1.0 \
-		openssh-server \
+	openssh-server \
 		zip \
 		unzip \
 && rm -rf /var/lib/apt/lists/*
